@@ -1,0 +1,120 @@
+h1 {
+  font-family: "Book Antiqua", "Times" serif;
+text-align: center;
+flex: auto;
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  background-color: black;
+  padding-bottom: .25em;
+
+}
+img {
+  float:right;
+  padding-left: .75em;
+}
+
+h2 {
+  font: 100% arial, helvetica, sans-serif;
+  font-size: 2em;
+}
+
+h3 {
+padding-top: 0px;
+padding-right: 5px;
+padding-bottom: 0px;
+    font: 100% sans-serif;
+    font-weight: 500;
+    color: gray;
+  }
+
+p {
+font: 100% arial, helvetica, sans-serif;
+margin-left: .1em;
+margin-right: .1em;
+}
+
+figure {
+  float: left;
+  width: 100%;
+padding: 0.5em;
+}
+
+figcaption {
+  float: left;
+  font-style: italic;
+  font-size: smaller;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+article {
+  -webkit-columns: 2 200px;
+  -moz-columns: 2 200px;
+  columns: 2 200px;
+}
+
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+footer {
+    padding: 30px 0;
+text-align: center;
+}
+
+.row-md-1 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+@media(min-width:768px) {
+
+
+    .spacer {
+      margin:0;
+      padding:5em;
+    }
+
+summary::-webkit-details-marker {
+  display: none
+}
+summary:after {
+  background: black;
+  border-radius: 5px;
+  content: "+";
+  color: #fff;
+  float: left;
+  font-size: 1em;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 5px;
+  padding: 0px;
+  text-align: center;
+  width: 20px;
+}
+details[open] summary:after {
+  content: "-";
+  margin-left: 15px;
+}
+
+    /*RESPONSIVE EMBED */
+
+    .video-container {
+    	position:relative;
+    	padding-bottom:56.25%;
+    	padding-top:30px;
+    	height:0;
+    	overflow:hidden;
+    }
+
+    .video-container iframe, .video-container object, .video-container embed {
+    	position:absolute;
+    	top:0;
+    	left:0;
+    	width:100%;
+    	height:100%;
+    }
+
+}
