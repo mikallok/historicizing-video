@@ -6,7 +6,8 @@ flex: auto;
   font-size: 4em;
   font-weight: bold;
   background-color: black;
-  padding-bottom: .25em;
+  padding-top: .5em;
+  padding-bottom: .5em;
 
 }
 img {
@@ -37,15 +38,22 @@ margin-right: .1em;
 figure {
   float: left;
   width: 100%;
-padding: 0.5em;
 }
 
 figcaption {
   float: left;
   font-style: italic;
   font-size: smaller;
-  margin: 0.5em;
-  padding: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+  margin-left: 1em;
+}
+
+embed-responsive-item {
+float: left;
+  margin-left: 1.25em;
+  margin-right: 1.25em;
 }
 
 article {
