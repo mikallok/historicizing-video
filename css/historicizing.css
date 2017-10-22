@@ -50,12 +50,6 @@ figcaption {
   margin-left: 1em;
 }
 
-embed-responsive-item {
-float: left;
-  margin-left: 1.25em;
-  margin-right: 1.25em;
-}
-
 article {
   -webkit-columns: 2 200px;
   -moz-columns: 2 200px;
