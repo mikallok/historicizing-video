@@ -38,6 +38,9 @@ margin-right: .1em;
 figure {
   float: left;
   width: 100%;
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid; /* IE 10+ */
 }
 
 figcaption {
@@ -100,7 +103,3 @@ details[open] summary:after {
   content: "-";
   margin-left: 15px;
 }
-
--webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
-          page-break-inside: avoid; /* Firefox */
-               break-inside: avoid; /* IE 10+ */
